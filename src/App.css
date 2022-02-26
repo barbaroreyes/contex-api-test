@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.dad{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+  
+}
+.jollas{
+  
+}
+.categoria{
+  width: 130px;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  border: 1px solid;
+  width: 100px;
+  padding: 20px;
+  margin: 18px;
+
+}
+a{
+  text-decoration: none;
+  color:grey;
 }
