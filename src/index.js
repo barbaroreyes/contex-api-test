@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {JollasProvider} from './context/jollas'
+import {BrowserRouter as Router} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <JollasProvider>
+    <React.StrictMode>
+      <Router>
+      <App />
+       </Router>
+     
+  </React.StrictMode>
+  </JollasProvider>
+  ,
   document.getElementById('root')
 );
 
